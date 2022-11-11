@@ -1,0 +1,89 @@
+.container {
+    color: white;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    border: 1px solid grey;
+    background-color: black;
+}
+
+.formulario {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(36, 32, 0);
+    background: linear-gradient(196deg, rgba(195, 34, 34, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    border-radius: 10px;
+    height: 350px;
+    width: 380px;
+}
+
+.container h1 {
+    color: orangered;
+    display: flex;
+}
+
+.container h2 {
+    color: white;
+    display: flex;
+}
+
+.button {
+
+    margin-top: 5px;
+    width: 130px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(195, 98, 34);
+    box-shadow: 5px;
+    border: none;
+    align-items: center;
+    margin-left: 50px;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgba(195, 34, 34, 1);
+    color: rgba(253, 187, 45, 1);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+.label {
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -30px
+}
+
+
+
+
+
+.formulario>form>label>input {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.549);
+}
+
+.label select {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    font-size: 1rem;
+    padding: 0.2em 0.5em;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}

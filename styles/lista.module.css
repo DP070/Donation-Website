@@ -1,0 +1,42 @@
+.listaContainer {
+    background-color: rgba(128, 128, 128, 0.24);
+    width: 1100px;
+    margin-top: -900px;
+    display: flex;
+    margin-left: 800px;
+    align-items: center;
+}
+
+.listas {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20vw;
+    border-style: 1px solid;
+    text-align: center;
+    align-items: flex-end;
+    margin-right: 10px;
+    justify-content: center;
+
+
+}
+
+.listas div {
+    background-color: rgba(0, 0, 255, 0);
+    max-width: 10px;
+
+}
+
+.categoria {
+    text-align: flex-start;
+    display: flex;
+}
+
+.genero {
+    text-align: center;
+    display: flex;
+}
+
+.tamanho {}

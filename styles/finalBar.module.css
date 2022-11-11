@@ -1,0 +1,24 @@
+.container{
+    background: linear-gradient(196deg,rgba(253, 187, 45, 1) 0%, rgba(195, 34, 34, 1) 100%);
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.marca img{
+    max-width: 300px;
+    max-height: 300px;
+}
+.texto{
+    color: white;
+}
+.imagens img{
+    max-width: 150px;
+    max-height: 150px;
+    
+}
+.imagens img:hover{
+    cursor: pointer;
+}

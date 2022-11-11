@@ -1,0 +1,23 @@
+{
+  "name": "hackathon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 34030",
+    "build": "next build",
+    "start": "next start -p 34030",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "mongodb": "^4.10.0",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.19.3",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
+  }
+}

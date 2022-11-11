@@ -1,0 +1,58 @@
+.filtros {
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 128, 128, 0);
+    margin-top: 120px;
+    height: 900px;
+    width: 250px;
+    color: black;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tamanhos {
+    margin-top: -300px;
+    color: #ff4500;
+}
+
+.filtros button {
+    width: 100px;
+    gap: 100px;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    height: 30px;
+    display: flex;
+
+}
+
+
+.filtros button:hover {
+    color: #ff4500;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.armazem {
+    border: 1px solid black;
+    color: black;
+}
+
+.genero {
+    color: #ff4500;
+    margin-top: 30px;
+}
+
+.tamanho {
+    display: flex;
+    text-align: left;
+}
+
+.listaContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
